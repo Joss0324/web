@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Formulario</title>
+    <link rel="stylesheet" href="CSS/estilos_form.css">
+</head>
+<body>
+    <div id="contenedor">
+        <img src="imgs/usuario.jfif">
+        <h1>Formulario de contacto</h1>
+        <form for="get">
+            <p>
+                <label for="nombre">Nombre completo</label><br>
+                <input type="text" id="nombre" name="nombre" autofocus required placeholder="Ingrese su nombre">
+                <input type="text" name="apellidos" id="apellidos" required placeholder="Apellidos">
+            </p>
+            <p>
+                <label for="direccion">Dirreccion</label><br>
+                <input type="text" id="direccion" name="direccion" required>
+            </p>
+            <p>
+                <label for="municipio"></label>
+                <select name="municipio" id="municipio" required>
+                    <option value="">Municipio</option>
+                    <option value="neza">Nezahualcoyotl</option>
+                    <option value="chima">Chimalhuacan</option>
+                    <option value="texcoco">Texcoco</option>
+                </select>
+                <label for="estado"></label>
+                <select name="estado" id="estado" required>
+                    <option value="">Estado</option>
+                    <option value="mex">Estado de Mexico</option>
+                    <option value="cdmx">CDMX</option>
+                    <option value="hidalgo">Hidalgo</option>
+                </select>
+                <label for="cp"></label>
+                <input type="text" id="cp" name="cp" required placeholder="CP">
+            </p>
+            <p>
+                <label for="telefono"></label>
+                <input type="tel" id="telefono" name="telefono" required placeholder="Telefono">
+                <label for="fecha"></label>
+                <input type="date" id="fecha" name="fecha" placeholder="Fecha nacimiento">
+            </p>
+            <p>
+                <label for="terminos"></label>
+                <input type="checkbox" id="terminos" name="terminos" value="Acepto terminos" required>Acepto terminos
+            </p>
+            <p>
+                <label for="comentarios"></label>
+                <textarea name="msg" id="msg" cols="40" rows="8">Comentarios Adicionales</textarea>
+            </p>
+            <p>
+                <input type="submit" id="remitir" value="Remitir">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
