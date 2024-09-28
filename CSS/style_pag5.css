@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedor{
+    width: 95%;
+    margin: 10px auto;
+    border: 3px green solid;
+    border-radius: 20px;
+    text-align: center;
+}
+.caja{
+    width: 80%;
+    height: 25px;
+    /*margin-left: 25%;*/
+}
+.boton{
+    width: 50%;
+    margin-top: 10px;
+    /*margin-left: 25%;*/
+    color: black;
+    height: 30px;
+    margin-bottom: 10px;
+}
+img{
+    width: 30%;
+}
+#logo{
+    float: left;
+    width: 20%;
+    height: 100px;
+
+}
+#menu{
+    float: left;
+    width: 80%;
+    height: 100px;
+    background-color: rgb(210, 197, 221);
+}
+nav{
+    text-align: center;
+    /*position: fixed;*/
+    width: 95%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 25px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+#tituno{
+    float: left;
+    width: 50%;
+    height: 150px;
+}
+#titdos{
+    float: left;
+    width: 50%;
+    height: 150px;
+}
+#uno{
+    float: left;
+    width: 30%;
+    height: 200px;
+}
+#dos{
+    float: left;
+    width: 40%;
+    height: 200px;
+}
+#tres{
+    float: left;
+    width: 30%;
+    height: 200px;
+}
+.derechos{
+    margin: 10%;
+}
