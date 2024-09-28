@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+#contenedor{
+    width: 60%;
+    margin: 10px auto;
+    color: transparent;
+}
+img{
+    width: 10%;
+    border-radius: 40px;
+    margin-left: 45%;
+    text-align: center;
+}
+p{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+    margin-left: 35%;
+    margin-bottom: 6px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 5px;
+    color: white;
+}
+#nombre{
+    width: 25%;
+    height: 25px;
+    margin-bottom: 6px;
+    background-color: transparent;
+    border: 1px silver solid;
+}
+#apellidos{
+    width: 35%;
+    height: 25px;
+    margin-bottom: 6px;
+    background-color: transparent;
+    border: 1px silver solid;
+}
+#direccion{
+    width: 62%;
+    height: 25px;
+    margin-bottom: 6px;
+    color: white;
+    background-color: transparent;
+    border: 1px silver solid;
+}
+#municipio{
+    color: white;
+    width: 25%;
+    margin-bottom: 6px;
+    height: 25px; 
+    background-color: transparent;
+    border: 1px silver solid;
+}
+#estado{
+    color: white;
+    width: 25%;
+    margin-left: 6px;
+    height: 25px; 
+    background-color: transparent;
+    border: 1px silver solid;
+}
+#cp{
+    width: 15%;
+    margin-left: 6px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px silver solid; 
+}
+#telefono{
+    width: 30%;
+    height: 25px; 
+    background-color: transparent;
+    border: 1px silver solid;
+}
+#fecha{
+    width: 35%;
+    margin-left: 12px;
+    height: 25px; 
+    color: white;
+    background-color: transparent;
+    border: 1px silver solid;
+}
+#terminos{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px silver solid;
+}
+#msg{
+    width: 68%;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px silver solid;
+}
+#remitir{
+    color: black;
+    float: right;
+    margin-right: 31.5%;
+    height: 38px;
+    width: 18%;
+    background-color: beige;
+    border: 1px silver solid;
+}
